@@ -1,6 +1,18 @@
 <template>
     <div>
-        Vue Food
+        <ul>
+            <li>
+                <router-link :to="{name: 'home'}">Home</router-link>
+            </li>
+            <li>
+                <router-link :to="{name: 'products'}">Products</router-link>
+            </li>
+            <li>
+                <router-link :to="{name: 'cart'}">Carrinho</router-link>
+            </li>
+        </ul>
+
+        <router-view></router-view>
     </div>
 </template>
 
