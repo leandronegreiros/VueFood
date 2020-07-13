@@ -1,5 +1,22 @@
 <template>
     <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-vuefood">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imgs/logo-vuefood.png" alt="VueFood" class="logo">
+                </a>
+                <div>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item nav-cart active">
+                            <a class="nav-link" href="carrinho.html"><i class="fas fa-shopping-cart"></i> (2)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container container-body">
+
         <!-- cart -->
         <div class="card shopping-cart my-4 ">
             <div class="card-header text-light">
@@ -77,6 +94,7 @@
             <a href="" class="cart-finalizar">Finalizar</a>
         </div>
         <!-- cart-->
+        </div>
     </div>
 </template>
 
