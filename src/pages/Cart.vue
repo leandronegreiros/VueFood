@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-vuefood">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="imgs/logo-vuefood.png" alt="VueFood" class="logo">
+                    <img src="../assets/imgs/logo-vuefood.png" alt="VueFood" class="logo">
                 </a>
                 <div>
                     <ul class="navbar-nav ml-auto">
